@@ -1,0 +1,33 @@
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 1.5;
+margin: auto;           
+padding: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+height: 100vh;
+}
+h1, h2 {
+border-bottom: 1px solid #ccc;
+}
+
+.header{
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+.Middle{
+    background-color: darksalmon;
+    flex-grow: 1;
+}
+.Middle-footer{
+    background-color: cadetblue;
+    flex-grow: 1;
+}
+.footer{
+    background-color: lightsalmon;
+    flex-grow: 1;
+}
+li{
+    list-style: none;
+}
